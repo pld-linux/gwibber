@@ -7,7 +7,7 @@ Group:		X11/Applications
 Source0:	%{name}-%{version}.tar.gz
 # Source0-md5:	09aa0722927c069fc70243b2e10d5bbe
 URL:		https://launchpad.net/gwibber
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	intltool
 BuildRequires:	python-devel >= 1:2.5.0
 BuildRequires:	python-distutils-extra
